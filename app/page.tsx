@@ -91,36 +91,50 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="projects" className="section">
-  <h2>Projects</h2>
+      ```tsx
+<section id="projects" className="section">
+  <h2>My Data Analytics Projects</h2>
 
   <div className="cards">
     <div className="card">
-      <h3>Sales Data Analysis</h3>
+      <h3>1. Sales Data Analysis — SQL</h3>
       <p>
-        Analyzed sales data using SQL, Excel and Power BI to identify
-        sales trends, top-performing products and key business insights.
+        Used SQL queries to analyze sales data, calculate total revenue,
+        identify top-selling products and discover sales trends.
       </p>
+      <p><strong>Tools:</strong> MySQL, SQL</p>
     </div>
 
     <div className="card">
-      <h3>HR Analytics</h3>
+      <h3>2. Excel Sales Dashboard</h3>
       <p>
-        Analyzed employee data using SQL and Power BI to explore
-        departments, salaries and employee-related trends.
+        Cleaned and analyzed sales data using Excel, PivotTables,
+        charts and formulas to summarize business performance.
       </p>
+      <p><strong>Tools:</strong> Microsoft Excel</p>
     </div>
 
     <div className="card">
-      <h3>Customer Analysis</h3>
+      <h3>3. Customer Data Analysis — Python</h3>
       <p>
-        Used Python and Pandas to analyze customer data, identify
-        patterns and generate meaningful business insights.
+        Used Python and Pandas to clean customer data, explore patterns
+        and generate useful business insights.
       </p>
+      <p><strong>Tools:</strong> Python, Pandas</p>
+    </div>
+
+    <div className="card">
+      <h3>4. Power BI Sales Dashboard</h3>
+      <p>
+        Designed an interactive dashboard to track sales, revenue,
+        product performance and key business metrics.
+      </p>
+      <p><strong>Tools:</strong> Power BI, DAX</p>
     </div>
   </div>
 </section>
-    
+```
+  
       <section id="education" className="section">
   <h2>Education</h2>
 
