@@ -2,18 +2,27 @@ export default function Home() {
   return (
     <main>
       <nav className="navbar">
-        <h2>Data Analyst</h2>
-
+        <h2>Rajkumar Kushwaha</h2>
+        
         <div className="nav-links">
           <a href="#home">Home</a>
+          <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certification">Certification</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
-
+        
       <section id="home" className="hero">
         <p className="small-title">WELCOME TO MY PORTFOLIO</p>
+
+        <h2 className="profile-name">Rajkumar Kushwaha</h2>
+
+        <p className="profile-role">
+        Aspiring Data Analyst | SQL | Python | Excel | Power BI
+        </p>
 
         <h1>
           Data Analyst
@@ -34,8 +43,27 @@ export default function Home() {
           <a href="#contact" className="button secondary">
             Contact Me
           </a>
+          <a
+           href="/Rajkumar-Kushwaha-Resume.pdf"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="button"
+          >
+           Download Resume
+          </a>
         </div>
       </section>
+
+      <section id="about" className="section">
+  <h2>About Me</h2>
+
+  <p>
+    I am an aspiring Data Analyst with hands-on experience in SQL,
+    Python, Excel and Power BI. I enjoy cleaning, analyzing and
+    visualizing data to discover meaningful insights and support
+    better business decisions.
+  </p>
+</section>
 
       <section id="skills" className="section">
         <h2>Skills</h2>
@@ -71,41 +99,79 @@ export default function Home() {
       <h3>Sales Data Analysis</h3>
       <p>
         Analyzed sales data using SQL, Excel and Power BI to identify
-        sales trends, top products and business insights.
+        sales trends, top-performing products and key business insights.
       </p>
     </div>
 
     <div className="card">
       <h3>HR Analytics</h3>
       <p>
-        Analyzed employee data using MySQL and Power BI to understand
-        salary, departments and employee performance.
+        Analyzed employee data using SQL and Power BI to explore
+        departments, salaries and employee-related trends.
       </p>
     </div>
 
     <div className="card">
       <h3>Customer Analysis</h3>
       <p>
-        Analyzed customer behavior using Python and Pandas to discover
-        patterns and generate useful business insights.
+        Used Python and Pandas to analyze customer data, identify
+        patterns and generate meaningful business insights.
       </p>
     </div>
   </div>
 </section>
+    
+      <section id="education" className="section">
+  <h2>Education</h2>
+
+  <div className="card">
+    <h3>+2 Commerce</h3>
+    <p>Nav Pargati Sen. Sec. School</p>
+    <p>2021 | 88%</p>
+  </div>
+</section>
+
+      <section id="certification" className="section">
+  <h2>Certification</h2>
+
+  <div className="card">
+    <h3>Patient Care Assistant</h3>
+    <p>Healthcare Sector Skill Council</p>
+    <p>National Skill Development Corporation (NSDC)</p>
+  </div>
+</section>
 
       <section id="contact" className="section contact">
-        <h2>Contact</h2>
+  <h2>Contact</h2>
 
-        <p>Interested in data analytics? Let's connect.</p>
+  <p>Interested in data analytics? Let's connect.</p>
 
-        <a href="mailto:your-email@example.com" className="button">
-          Email Me
-        </a>
-      </section>
+  <div className="buttons">
+    <a
+      href="https://github.com/rajkumar9034765722-cmyk"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="button"
+    >
+      GitHub
+    </a>
 
-      <footer>
-        <p>© 2026 Data Analyst Portfolio</p>
-      </footer>
-    </main>
-  );
-}
+    <a
+      href="https://www.linkedin.com/in/rajkumar-kushwaha-data-analyst/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="button secondary"
+    >
+      LinkedIn
+    </a>
+  </div>
+</section>
+
+ <footer>
+  <p>© 2026 Rajkumar Kushwaha | Aspiring Data Analyst</p>
+</footer>
+</main>
+);
+}   
+    
+ 
