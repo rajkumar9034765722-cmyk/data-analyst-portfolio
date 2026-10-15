@@ -196,3 +196,12 @@ footer {
     flex-direction: column;
   }
 }
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  margin: 12px 0;
+  border: 1px solid #334155;
+}

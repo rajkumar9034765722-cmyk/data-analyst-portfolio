@@ -91,7 +91,6 @@ export default function Home() {
         </div>
       </section>
 
-      ```tsx
 <section id="projects" className="section">
   <h2>My Data Analytics Projects</h2>
 
@@ -105,14 +104,26 @@ export default function Home() {
       <p><strong>Tools:</strong> MySQL, SQL</p>
     </div>
 
-    <div className="card">
-      <h3>2. Excel Sales Dashboard</h3>
-      <p>
-        Cleaned and analyzed sales data using Excel, PivotTables,
-        charts and formulas to summarize business performance.
-      </p>
-      <p><strong>Tools:</strong> Microsoft Excel</p>
-    </div>
+ <div className="card">
+  <h3>2. Excel Sales Dashboard</h3>
+  
+  <img
+  src="/excel-sales-dashboard.png"
+  alt="Excel Sales Analysis Dashboard"
+  className="project-image"
+/>
+
+  <p>
+    Analyzed sales data using Excel formulas, PivotTables,
+    PivotCharts and interactive slicers. Created a dashboard
+    to compare product-wise and region-wise sales and track
+    key business metrics.
+  </p>
+  <p>
+    <strong>Tools:</strong> Microsoft Excel, PivotTables,
+    PivotCharts, Slicers
+  </p>
+</div>
 
     <div className="card">
       <h3>3. Customer Data Analysis — Python</h3>
