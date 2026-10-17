@@ -123,6 +123,11 @@ export default function Home() {
     <strong>Tools:</strong> Microsoft Excel, PivotTables,
     PivotCharts, Slicers
   </p>
+  <p>
+  <a href="/Sales_Data_Analysis_Dashboard.xlsx" download>
+    Download Excel Project
+  </a>
+</p>
 </div>
 
     <div className="card">
