@@ -140,13 +140,18 @@ export default function Home() {
     </div>
 
     <div className="card">
-      <h3>4. Power BI Sales Dashboard</h3>
-      <p>
-        Designed an interactive dashboard to track sales, revenue,
-        product performance and key business metrics.
+       <h3>4. Power BI Sales Dashboard</h3>
+       <p>
+         Designed an interactive dashboard to track sales, revenue,
+         product performance and key business metrics.
+       </p>
+       <p><strong>Tools:</strong> Power BI, DAX</p>
+       <p>
+       <a href="/Sales_Data_Analysis_Dashboard.pbix" download>
+         Download Power BI Project
+       </a>
       </p>
-      <p><strong>Tools:</strong> Power BI, DAX</p>
-    </div>
+     </div>
   </div>
 </section>
 ```
