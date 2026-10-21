@@ -141,6 +141,11 @@ export default function Home() {
 
     <div className="card">
        <h3>4. Power BI Sales Dashboard</h3>
+     <img
+       src="/power-bi-sales-dashboard.png"
+       alt="Power BI Sales Performance Dashboard"
+       className="project-image"
+     />
        <p>
          Designed an interactive dashboard to track sales, revenue,
          product performance and key business metrics.
