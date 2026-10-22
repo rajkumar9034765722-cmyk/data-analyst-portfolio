@@ -93,15 +93,23 @@ export default function Home() {
 
 <section id="projects" className="section">
   <h2>My Data Analytics Projects</h2>
-
   <div className="cards">
-    <div className="card">
+     <div className="card">
       <h3>1. Sales Data Analysis — SQL</h3>
       <p>
         Used SQL queries to analyze sales data, calculate total revenue,
         identify top-selling products and discover sales trends.
       </p>
       <p><strong>Tools:</strong> MySQL, SQL</p>
+      <p><strong>Key Insights:</strong> Total sales ₹3,28,500;
+        identified top-selling products and regional performance.</p>
+      <a
+        href="https://github.com/rajkumar9034765722-cmyk/data-analyst-portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View SQL Project on GitHub
+      </a>
     </div>
 
  <div className="card">
